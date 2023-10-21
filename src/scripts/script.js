@@ -48,7 +48,7 @@ const books = [
 			// GOOD books:
 			else { innerHtmlForLi = `${obj.author}, "${obj.name}"<br><span>$ ${obj.price}</span>`; }
 		} catch (e) {
-			console.warn(e.message)
+			console.error(e.message)
 		}
 		const newLi = document.createElement('li');
 		newLi.innerHTML = innerHtmlForLi;
