@@ -1,9 +1,5 @@
 @mixin default-font {
-
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-style: normal;
 }
-
-@mixin heading-font {
-	@include default-font;
-
-}
-

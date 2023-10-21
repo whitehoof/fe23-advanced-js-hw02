@@ -1,0 +1,17 @@
+#root ul {
+	padding: 2em;
+
+	@include default-font;
+	font-weight: 300;
+	font-size: 1em;
+
+	li {
+		margin-bottom: 1.6em;
+		
+		span {
+			display: block;
+			font-weight: 700;
+			margin-top: 0.3em;
+		}
+	}
+}
